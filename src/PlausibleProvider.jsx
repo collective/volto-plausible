@@ -1,8 +1,11 @@
 import React from 'react';
 import { Helmet } from '@plone/volto/helpers';
+import config from '@plone/volto/registry';
 
-const PlausibleProvider = ({ domain }) =>
-  domain ? (
+const PlausibleProvider = () => {
+  const domain = config.settings.plausibleDomain;
+
+  return domain ? (
     <React.Fragment>
       <Helmet>
         <script
@@ -13,5 +16,6 @@ const PlausibleProvider = ({ domain }) =>
       </Helmet>
     </React.Fragment>
   ) : null;
+};
 
 export default PlausibleProvider;
