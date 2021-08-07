@@ -1,0 +1,22 @@
+{
+  "name": "volto-plausible",
+  "version": "0.1.0",
+  "description": "Plausible.io integration for Volto projects",
+  "main": "src/index.js",
+  "repository": "https://github.com/collective/volto-plausible.git",
+  "author": "nzambello",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "devDependencies": {
+    "release-it": "*"
+  },
+  "scripts": {
+    "i18n": "NODE_ENV=production node src/i18n.js",
+    "release": "release-it"
+  }
+}
