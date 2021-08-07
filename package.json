@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "description": "Plausible.io integration for Volto projects",
   "main": "src/index.js",
-  "repository": "https://github.com/collective/volto-plausible.git",
+  "repository": "https://github.com/collective/volto-plausible",
+  "bugs": "https://github.com/collective/volto-plausible/issues",
+  "homepage": "https://github.com/collective/volto-plausible#readme",
   "author": "nzambello",
   "license": "MIT",
   "keywords": [
     "volto-addon",
     "volto",
     "plone",
-    "react"
+    "react",
+    "plausible",
+    "analytics"
   ],
   "devDependencies": {
     "release-it": "*"
