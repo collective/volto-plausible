@@ -1,8 +1,6 @@
 # volto-plausible
 
-Plausible.io integration for Volto projects
-
-To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/customizing/add-ons/) for further usage informations.
+[Plausible.io](https://plausible.io/) integration for Volto projects.
 
 Install with mrs-developer (see [Volto docs](https://docs.voltocms.com/customizing/add-ons/)) or with:
 
@@ -14,4 +12,8 @@ Created with [voltocli](https://github.com/nzambello/voltocli).
 
 ## Usage
 
-`Document your addon here`
+Apply this addon to your Volto project, then configure it in `config.js` with your site's domain, accordingly to your Plausible configuration:
+
+```js
+config.settings.plausibleDomain = 'rawmaterial.it'
+```
