@@ -15,5 +15,5 @@ Created with [voltocli](https://github.com/nzambello/voltocli).
 Apply this addon to your Volto project, then configure it in `config.js` with your site's domain, accordingly to your Plausible configuration:
 
 ```js
-config.settings.plausibleDomain = 'rawmaterial.it'
+applyPlausibleConfig({ config, domain: 'rawmaterial.it' });
 ```

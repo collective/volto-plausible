@@ -1,10 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Helmet } from '@plone/volto/helpers';
-import config from '@plone/volto/registry';
 
-const PlausibleProvider = () => {
-  const domain = config.settings.plausibleDomain;
-
+/**
+ * PlausibleProvider
+ * @param {object} props
+ * @param {string} props.domain - Plausible domain
+ */
+const PlausibleProvider = ({ domain = '' }) => {
   return domain ? (
     <React.Fragment>
       <Helmet>
@@ -16,6 +19,10 @@ const PlausibleProvider = () => {
       </Helmet>
     </React.Fragment>
   ) : null;
+};
+
+PlausibleProvider.propTypes = {
+  domain: PropTypes.string.isRequired,
 };
 
 export default PlausibleProvider;
