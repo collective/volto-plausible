@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/collective/volto-plausible/compare/v1.0.0...v2.0.0) (2021-09-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* change define config
+
+### Changes
+
+* change define config ([f13a8b2](https://github.com/collective/volto-plausible/commit/f13a8b21ec346ea28001ca40f8b95fe0112eeaee))
+
 ## [1.0.0](https://github.com/collective/volto-plausible/compare/v0.1.0...v1.0.0) (2021-08-07)
 
 
