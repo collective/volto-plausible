@@ -17,13 +17,19 @@
     "analytics"
   ],
   "scripts": {
-    "i18n": "NODE_ENV=production node src/i18n.js"
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n -a"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@plone/scripts": "^1.0.3"
+  },
+  "peerDependencies": {
+    "@plone/volto": ">=14.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
