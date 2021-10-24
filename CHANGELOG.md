@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/collective/volto-plausible/compare/v2.0.0...v2.1.0) (2021-10-24)
+
+
+### Maintenance
+
+* upgrade to volto 14, use @plone/script i18n ([93b44fc](https://github.com/collective/volto-plausible/commit/93b44fc72757329d0b0082a6f66a6fcb354875bc))
+
 ## [2.0.0](https://github.com/collective/volto-plausible/compare/v1.0.0...v2.0.0) (2021-09-27)
 
 
